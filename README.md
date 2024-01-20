@@ -6,7 +6,7 @@ Inspired by the broad participation in the DISPLACE 2023 challenge and the need 
 # Updates
 [20/01/2024]: We have released the Baseline codes for speaker diarization and language diarization.
 
-# Baseline for speaker diarization 
+# Baseline for speaker diarization (Track 1)
 The implementation of the speaker diarization baseline is largely similar to the  [DISPLACE 2023](https://github.com/displace2023/DISPLACE_Baselines). 
 This baseline has been described in the DISPLACE 2023 challenge paper :
 - Baghel, Shikha et al., “The DISPLACE Challenge 2023 - DIarization of SPeaker and LAnguage in
@@ -19,7 +19,7 @@ The major changes in the DISPLACE 2024 baseline are:
 2. Overlap handling using [Pyannote overlap detector](https://github.com/pyannote/pyannote-audio) and VB-HMM together in the final stage.
 
 
-# Baseline for Language Dizarization
+# Baseline for Language Dizarization (Track 2)
 The implementation of the language diarization baseline is based on an Agglomerative Hierarchical Clustering over language embeddings extracted from a spoken language recognition model trained on the VoxLingua107 dataset using SpeechBrain. The model was based on the ECAPA-TDNN architecture ([1](https://arxiv.org/abs/2005.07143)). VoxLingua covers 107 different languages. We used this model as a feature (embeddings) extractor. We experimented with this model on our own data with a range of different hop lengths and frame sizes. 
 The steps involved in language diarization are speech activity detection, utterance-level feature extraction, and followed by Agglomerative Hierarchical Clustering (AHC). 
 ```
@@ -40,7 +40,8 @@ The steps involved in language diarization are speech activity detection, uttera
   note={arXiv:2106.04624}
 }
 ```
-
+# Baseline Details for Automatic Speech Recognition (Track 3)
+Details will be updated soon 
 
 # Installation
   
@@ -49,7 +50,7 @@ The steps involved in language diarization are speech activity detection, uttera
 Clone the repo:
 
 ```bash
-git clone https://github.com/displace2023/Baseline.git
+https://github.com/displace2024/Displace2024_baseline.git
 cd Baseline
 ```
 
