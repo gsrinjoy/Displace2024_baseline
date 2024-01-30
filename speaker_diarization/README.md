@@ -115,8 +115,8 @@ Expected DER for the baseline system on the Displace challenge DEV set is presen
 
 |  Method           | DER (Dev)   | 
 | ------------------| ----------- |
-| SC                |             |       
-| VB-HMM + Overlap  |             |
+| SC                |   30.44     |       
+| VB-HMM + Overlap  |   29.16     |
   
 
   
