@@ -56,6 +56,15 @@ Besides the above settings, we have used the audio segments greater than or equa
 
 We computed the Word Error Rate (WER) for close field recording per language (by concatenating all the generated transcripts per language into one single file) <br/>
 
+|  Language                 | WER (Dev)   | 
+| --------------------------| ----------- |
+| Hindi                     |   58.5      |       
+| Bengali                   |   63.5      |
+| Telugu                    |   71.2      |
+| Kannada                   |   80.8      |
+| English from all sessions | 66.5        |
+| Overall                   | 66.7        |
+
 
 # Installation
   
