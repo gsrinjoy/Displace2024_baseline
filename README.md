@@ -41,7 +41,18 @@ The steps involved in language diarization are speech activity detection, uttera
 }
 ```
 # Baseline Details for Automatic Speech Recognition (Track 3)
-Details will be updated soon 
+We have implemented the Google Speech to Text cloud services for our baseline system using the close field recordings of development data. 
+```
+ https://cloud.google.com/speech-to-text 
+```
+We kindly request the users create your Google Cloud services account and make use of Google Speech-to-Text API using the settings **Speaker diarization** 
+ "off" and **language** as follows <br />
+
+తెలుగు (భారతదేశం) -- for Telugu <br />
+ಕನ್ನಡ (ಭಾರತ) -- for Kannada <br />
+বাংলা (ভারত) -- for Bengali <br />
+हिन्दी (भारत) -- for Hindi <br />
+English (India) -- for English <br />
 
 # Installation
   
