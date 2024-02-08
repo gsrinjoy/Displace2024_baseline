@@ -45,14 +45,17 @@ We have implemented the Google Speech to Text cloud services for our baseline sy
 ```
  https://cloud.google.com/speech-to-text 
 ```
-We kindly request the users create your Google Cloud services account and make use of Google Speech-to-Text API using the settings **Speaker diarization** 
- "off" and **language** as follows <br />
+To replicate the results on the close field recordings of DEV data, we kindly request the users create your own Google Cloud services account and make use of Google Speech-to-Text API using the following settings **Speaker diarization**  "off"  and  **language** as follows <br />
 
 తెలుగు (భారతదేశం) -- for Telugu <br />
 ಕನ್ನಡ (ಭಾರತ) -- for Kannada <br />
 বাংলা (ভারত) -- for Bengali <br />
 हिन्दी (भारत) -- for Hindi <br />
 English (India) -- for English <br />
+Besides the above settings, we have used the audio segments greater than or equal to 2 seconds while giving as input to the API. <br />
+
+We computed the Word Error Rate (WER) for close field recording per language (by concatenating all the generated transcripts per language into one single file) <br/>
+
 
 # Installation
   
