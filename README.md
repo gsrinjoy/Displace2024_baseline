@@ -5,6 +5,7 @@ Inspired by the broad participation in the DISPLACE 2023 challenge and the need 
 
 # Updates
 [8/02/2024]: Track 3 (ASR) baseline details and results on DEV data updated. 
+
 [20/01/2024]: We have released the Baseline codes for speaker diarization and language diarization.
 
 
