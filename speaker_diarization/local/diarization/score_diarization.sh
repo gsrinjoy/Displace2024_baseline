@@ -50,17 +50,26 @@ tmpdir=$(mktemp -d -t dh3-dscore-XXXXXXXX)
 # scoring regions are defined separately
 # Score FULL test set.
 
+if [ ! -z "scores_dir" ]; then
+   mkdir -p $scores_dir
+fi
+echo "############################################################################"
+echo "" 
+echo "Scoring error in: $scores_dir/metrics_full.stderr"
+
+echo "############################################################################"
+
 score.py \
   --collar $collar --step $step \
   -r $release_dir/data/final.rttm \
   -s $rttm_dir/*.rttm \
-  >  $tmpdir/metrics_full.stdout \
-  2> $tmpdir/metrics_full.stderr
+  >  $scores_dir/metrics_full.stdout \
+  2> $scores_dir/metrics_full.stderr
 
 
 # Report.
-full_der=$(grep OVERALL $tmpdir/metrics_full.stdout | awk '{print $4}')
-full_jer=$(grep OVERALL $tmpdir/metrics_full.stdout | awk '{print $5}')
+full_der=$(grep OVERALL $scores_dir/metrics_full.stdout | awk '{print $4}')
+full_jer=$(grep OVERALL $scores_dir/metrics_full.stdout | awk '{print $5}')
 echo "$0: ******* SCORING RESULTS *******"
 echo "$0: *** DER (full): ${full_der}"
 if [ ! -z "scores_dir" ]; then
@@ -69,8 +78,8 @@ if [ ! -z "scores_dir" ]; then
 fi
 
 # Clean up.
-if [ ! -z "scores_dir" ]; then
-  mkdir -p $scores_dir
-  cp $tmpdir/* $scores_dir
-fi
-rm -fr $tmpdir
+#if [ ! -z "scores_dir" ]; then
+#  mkdir -p $scores_dir
+#  cp $tmpdir/* $scores_dir
+#fi
+#rm -fr $tmpdir

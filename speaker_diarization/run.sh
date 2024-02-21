@@ -8,9 +8,9 @@ PYTHON=python  # Python to use; defaults to system Python.
 ################################################################################
 # Configuration
 ################################################################################
-nj=27
-decode_nj=20 #eval
-stage=6
+nj=4
+decode_nj=4 #eval
+stage=0
 sad_train_stage=0
 sad_decode_stage=0
 diarization_stage=0
@@ -31,8 +31,8 @@ eval_sad=false
 ################################################################################
 # Paths to DISPLACE 2023 releases
 ################################################################################
-DISPLACE_DEV_DIR=/data1/shareef/Displace_DEV
-DISPLACE_EVAL_DIR=/data1/shareef/Displace_EVAL
+DISPLACE_DEV_DIR=/data1/apoorvak/DISPLACE_dev
+DISPLACE_EVAL_DIR=/data1/apoorvak/DISPLACE_eval
 
 pyannote_pretrained_model=../vad_benchmarking/VAD_model/pytorch_model.bin # SAD and Overlap pyannote model.
 

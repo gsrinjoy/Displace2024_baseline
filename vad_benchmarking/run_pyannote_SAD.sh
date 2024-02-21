@@ -2,8 +2,7 @@
 . ./path.sh
 
 eval_sad=false
-PYTHON=python
-
+PYTHON=python # requires pyannote
 nj=27
 stage=1
 # default
@@ -31,7 +30,7 @@ if [ $stage -le 1 ]; then
     offset=$onset
     JOB=1
     echo "######################################################################"
-    $decode_med_cmd JOB=1:$nj $outputdir/log/sad.JOB.log \
+    $decode_cmd JOB=1:$nj $outputdir/log/sad.JOB.log \
         $PYTHON ../vad_benchmarking/VAD.py \
         --in-audio=$datasetpath/split$nj/JOB/wav.scp \
         --in-VAD=Pyannote_VAD \
@@ -69,7 +68,7 @@ echo copying wav.scp and creating utt2spk and spk2utt from segments folder
 ####################################################
 if [ $stage -le 3 ]; then
     cp $datasetpath/wav.scp $path_new_kaldi_segs/.
-    cp $datasetpath/rttm $path_new_kaldi_segs/
+    [[ -e rttm ]] && cp $datasetpath/rttm $path_new_kaldi_segs/
     awk '{print $1,$2}'  $path_new_kaldi_segs/segments >  $path_new_kaldi_segs/utt2spk
     utils/utt2spk_to_spk2utt.pl $path_new_kaldi_segs/utt2spk > $path_new_kaldi_segs/spk2utt
 fi

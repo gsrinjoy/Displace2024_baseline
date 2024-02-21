@@ -1,6 +1,5 @@
 
-# Baseline for language diarization
-
+# Baseline for automatic speech recognition
 
 
 # Prerequisites

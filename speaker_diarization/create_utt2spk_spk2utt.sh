@@ -8,7 +8,7 @@ fi
 
 source=$path/rttm 
 
-target=$2/final.rttm
+target=$2/data/final.rttm
 {
 if [ -f $source ]; then
   cp $source $target 

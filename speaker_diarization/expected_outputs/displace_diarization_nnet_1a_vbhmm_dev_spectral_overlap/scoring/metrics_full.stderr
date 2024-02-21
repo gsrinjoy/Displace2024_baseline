@@ -1,0 +1,63 @@
+Loading speaker turns from reference RTTMs...
+Loading speaker turns from system RTTMs...
+WARNING: No universal evaluation map specified. Approximating from reference and speaker turn extents...
+Trimming reference speaker turns to UEM scoring regions...
+Trimming system speaker turns to UEM scoring regions...
+Checking for overlapping reference speaker turns...
+Checking for overlapping system speaker turns...
+WARNING: Merging overlapping speaker turns. FILE: B010, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: B014, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: B022, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: B034, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: B034, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: B036, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: B036, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: B036, SPEAKER: speaker5
+WARNING: Merging overlapping speaker turns. FILE: B040, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: B040, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: B042, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: B042, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: B044, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: B044, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: B044, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: B046, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: B046, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: B046, SPEAKER: speaker5
+WARNING: Merging overlapping speaker turns. FILE: B047, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: B047, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M018, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M019, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: M019, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M020, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: M020, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M022, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: M022, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: M023, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M023, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: M027, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: M027, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M027, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: M028, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: M028, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: M029, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: M029, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M030, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: M030, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M030, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: M031, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: M031, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M031, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: M032, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: M032, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M033, SPEAKER: speaker2
+WARNING: Merging overlapping speaker turns. FILE: M033, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M033, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: M037, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M037, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: M038, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M038, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: M039, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M040, SPEAKER: speaker3
+WARNING: Merging overlapping speaker turns. FILE: M040, SPEAKER: speaker4
+WARNING: Merging overlapping speaker turns. FILE: M043, SPEAKER: speaker3
+Scoring...
